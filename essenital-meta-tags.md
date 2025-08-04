@@ -24,7 +24,7 @@
 </ul>
 
 <pre>
-<meta name="description" content="Free Web tutorials">
+&lt;meta name="description" content="Free Web tutorials"&gt;
 </pre>
 
 <ul>
@@ -35,7 +35,7 @@
 </ul>
 
 <pre>
-<meta name="keywords" content="HTML, CSS, JavaScript">
+&lt;meta name="keywords" content="HTML, CSS, JavaScript"&gt;
 </pre>
 
 <ul>
@@ -43,7 +43,7 @@
 </ul>
 
 <pre>
-<meta name="author" content="John Doe">
+&lt;meta name="author" content="John Doe"&gt;
 </pre>
 
 <ul>
@@ -51,7 +51,7 @@
 </ul>
 
 <pre>
-<meta http-equiv="refresh" content="30">
+&lt;meta http-equiv="refresh" content="30"&gt;
 </pre>
 
 <ul>
@@ -60,7 +60,7 @@
 </ul>
 
 <pre>
-<meta name="robots" content="noindex, nofollow">
+&lt;meta name="robots" content="noindex, nofollow"&gt;
 </pre>
 
 <ul>
@@ -72,7 +72,7 @@
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 <pre>
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'">
+&lt;meta http-equiv="Content-Security-Policy" content="default-src 'self'"&gt;
 </pre>
 
 <ul>
@@ -81,7 +81,7 @@
 </ul>
 
 <pre>
-<meta http-equiv="X-Content-Type-Options" content="nosniff">
+&lt;meta http-equiv="X-Content-Type-Options" content="nosniff"&gt;
 </pre>`
 
 <ul>
@@ -90,7 +90,7 @@
 </ul>
 
 <pre>
-<meta name="referrer" content="no-referrer">
+&lt;meta name="referrer" content="no-referrer"&gt;
 </pre>
 
 <ul>
@@ -122,14 +122,14 @@
 <h3>Other Meta Tags</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <pre>
-<meta name="format-detection" content="telephone=no">
+&lt;meta name="format-detection" content="telephone=no"&gt;
 </pre>
 
 	- Instructs browsers not to detect and format telephone numbers automatically.
 	- Useful for preventing unintended UI modifications, especially on mobile devices.
 
 <pre>
-<meta name="theme-color" content="#ffffff">
+&lt;meta name="theme-color" content="#ffffff"&gt;
 </pre>
 
 	- Suggests a color that browsers should use to customize the display of the page or of the surrounding user interface.
@@ -138,63 +138,63 @@
 	- Particularly useful for mobile browsers to match the address bar color with the site’s theme color.
 
 <pre>
-<meta name="application-name" content="Application Name">
+&lt;meta name="application-name" content="Application Name"&gt;
 </pre>
 
 	- Specifies the name of the web application.
 	- Not widely used for SEO but can be useful in web app manifests and when the website is pinned to a screen, like on mobile devices or desktops.
 
 <pre>
-<meta name="generator" content="WordPress 5.8">
+&lt;meta name="generator" content="WordPress 5.8"&gt;
 </pre>
 
 	- Indicates the software or platform used to generate the page.
 	- Automatically included by some CMSs like WordPress but often removed for security reasons to obscure the platform version.
 
 <pre>
-<meta http-equiv="Content-Language" content="en-US">
+&lt;meta http-equiv="Content-Language" content="en-US"&gt;
 </pre>
 
 	- Specifies the natural language(s) of the document.
 	- The use of <html lang="en-US"> is preferred for specifying the primary language.
 
 <pre>
-<meta name="google" content="notranslate">
+&lt;meta name="google" content="notranslate"&gt;
 </pre>
 
 	- Indicates to Google not to offer translation for this page.
 	- Useful for content that may be misinterpreted when automatically translated.
 
 <pre>
-<meta property="fb:app_id" content="Your_App_ID">
+&lt;meta property="fb:app_id" content="Your_App_ID"&gt;
 </pre>
 
 	- Associates your website with a Facebook app ID.
 	- Essential for using Facebook Insights to track user interaction and for a more enhanced sharing experience on Facebook.
 
 <pre>
-<meta name="apple-mobile-web-app-capable" content="yes">
+&lt;meta name="apple-mobile-web-app-capable" content="yes"&gt;
 </pre>
 
 	- Instructs Safari on iOS to operate in full-screen mode when the website is saved to the home screen.
 	- Enhances the mobile experience by hiding browser UI components.
 
 <pre>
-<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+&lt;meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"&gt;
 </pre>
 
 	- Specifies the style of the status bar for web applications added to the home screen on iOS.
 	- Options include default, black, and black-translucent.
 
 <pre>
-<meta name="msapplication-TileColor" content="#000000">
+&lt;meta name="msapplication-TileColor" content="#000000"&gt;
 </pre>
 
 	- Defines the color of the tile for Windows 8 and 10 when the user pins the site to their start menu.
 	- Helps maintain brand consistency across user platforms.
 
 <pre>
-<meta name="msapplication-config" content="/browserconfig.xml">
+&lt;meta name="msapplication-config" content="/browserconfig.xml"&gt;
 </pre>
 
 	- Specifies the location of the XML config file for Internet Explorer 11 when pinning websites to the Windows taskbar.
