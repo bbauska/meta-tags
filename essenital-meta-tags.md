@@ -7,58 +7,55 @@
 <meta charset="UTF-8">
 ```
 
-<p>Specifies the character encoding for the HTML document.</p>
-<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta#attr-charset">MDN Web Docs</a>
+	- <p>Specifies the character encoding for the HTML document.</p>
+	- <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta#attr-charset">MDN Web Docs</a>
 
 ```
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 ```
 
-<p>Controls the viewport's size and scale, essential for responsive design.</p>
-<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Viewport_meta_tag">MDN Web Docs</a>
+	- <p>Controls the viewport's size and scale, essential for responsive design.</p>
+	- <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Viewport_meta_tag">MDN Web Docs</a>
 
 ```
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 ```
 
-<p>Advises Internet Explorer to use the latest rendering engine.</p>
-<p>No longer broadly relevant as IE reaches end-of-life.</p>
-<a href="">MDN Web Docs</a>
+	- <p>Advises Internet Explorer to use the latest rendering engine.</p>
+	- <p>No longer broadly relevant as IE reaches end-of-life.</p>
 
 ```
 <meta name="description" content="Free Web tutorials">
 ```
 
-<p>Provides a brief description of the page. Important for SEO and when sharing links on social platforms.</p>
-<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta/name">MDN Web Docs</a>
+	- <p>Provides a brief description of the page. Important for SEO and when sharing links on social platforms.</p>
+	- <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta/name">MDN Web Docs</a>
 
 ```
 <meta name="keywords" content="HTML, CSS, JavaScript">
 ```
 
-Specifies keywords for search engines. Its importance for SEO has diminished over time due to overuse and spamming.
+	- Specifies keywords for search engines. Its importance for SEO has diminished over time due to overuse and spamming.
 
 ```
 <meta name="author" content="John Doe">
 ```
 
-Defines the author of the webpage.
+	- Defines the author of the webpage.
 
 ```
 <meta http-equiv="refresh" content="30">
 ```
 
-Refreshes the page after a specified number of seconds.
-<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta/http-equiv#attr-refresh">MDN Web Docs</a>
-
-<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta/http-equiv#attr-refresh">MDN Web Docs</a>
+	- Refreshes the page after a specified number of seconds.
+	- <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta/http-equiv#attr-refresh">MDN Web Docs</a>
 
 ```
 <meta name="robots" content="noindex, nofollow">
 ```
 
-Instructs search engines not to index or follow the links on the page.
-<a href="https://developers.google.com/search/docs/advanced/robots/robots_meta_tag">Google Developers</a>
+	- Instructs search engines not to index or follow the links on the page.
+	- <a href="https://developers.google.com/search/docs/advanced/robots/robots_meta_tag">Google Developers</a>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3>Security-Related Meta Tags</h3>
@@ -68,26 +65,26 @@ Instructs search engines not to index or follow the links on the page.
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'">
 ```
 
-Controls resources the user agent is allowed to load, enhancing security.
-<a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP">MDN Web Docs</a>
+	- Controls resources the user agent is allowed to load, enhancing security.
+	- <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP">MDN Web Docs</a>
 
 ```
 <meta http-equiv="X-Content-Type-Options" content="nosniff">
 ```
 
-Prevents the browser from MIME-sniffing a response away from the declared content-type.
-<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta/http-equiv#x-content-type-options">MDN Web Docs</a>
+	- Prevents the browser from MIME-sniffing a response away from the declared content-type.
+	- <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta/http-equiv#x-content-type-options">MDN Web Docs</a>
 
 ```
 <meta name="referrer" content="no-referrer">
 ```
 
-Controls the amount of referrer information sent along with requests.
-<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta/name">MDN Web Docs</a>
+	- Controls the amount of referrer information sent along with requests.
+	- <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta/name">MDN Web Docs</a>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3>Social Media Integration Meta Tags</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-Open Graph (Facebook)
+<h4>Open Graph (Facebook)</h4>
 
 ```
 <meta property="og:title" content="Title Here">
@@ -111,7 +108,7 @@ An image URL which should represent your content.
 <a href="https://ogp.me/">Open Graph Protocol</a>
 ```
 
-Twitter Cards
+<h4>Twitter Cards</h4>
 
 ```
 <meta name="twitter:card" content="summary_large_image">: 
