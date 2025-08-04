@@ -7,25 +7,19 @@
 	<li>Specifies the character encoding for the HTML document.</li>
 	<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta#attr-charset">MDN Web Docs</a></li>
 </ul>
-<pre>
-&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
-</pre>
+<pre>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</pre>
 <ul>
   <li>Controls the viewport's size and scale, essential for responsive design.</li>
   <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Viewport_meta_tag">MDN Web Docs</a></li>
 </ul>
-<pre>
-&lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;
-</pre>
+<pre>&lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;</pre>
 
 <ul>
   <li>Advises Internet Explorer to use the latest rendering engine.</li>
   <li>No longer broadly relevant as IE reaches end-of-life.</li>
 </ul>
 
-<pre>
-&lt;meta name="description" content="Free Web tutorials"&gt;
-</pre>
+<pre>&lt;meta name="description" content="Free Web tutorials"&gt;</pre>
 
 <ul>
   <li>Provides a brief description of the page. Important for SEO and when sharing 
@@ -34,34 +28,26 @@
     MDN Web Docs</a></li>
 </ul>
 
-<pre>
-&lt;meta name="keywords" content="HTML, CSS, JavaScript"&gt;
-</pre>
+<pre>&lt;meta name="keywords" content="HTML, CSS, JavaScript"&gt;</pre>
 
 <ul>
   <li>Specifies keywords for search engines. Its importance for SEO has diminished over time due to overuse and spamming.</li>
 </ul>
 
-<pre>
-&lt;meta name="author" content="John Doe"&gt;
-</pre>
+<pre>&lt;meta name="author" content="John Doe"&gt;</pre>
 
 <ul>
   <li>Defines the author of the webpage.</li>
 </ul>
 
-<pre>
-&lt;meta http-equiv="refresh" content="30"&gt;
-</pre>
+<pre>&lt;meta http-equiv="refresh" content="30"&gt;</pre>
 
 <ul>
   <li>Refreshes the page after a specified number of seconds.</li>
   <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta/http-equiv#attr-refresh">MDN Web Docs</a></li>
 </ul>
 
-<pre>
-&lt;meta name="robots" content="noindex, nofollow"&gt;
-</pre>
+<pre>&lt;meta name="robots" content="noindex, nofollow"&gt;</pre>
 
 <ul>
   <li>Instructs search engines not to index or follow the links on the page.</li>
@@ -70,28 +56,21 @@
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3>Security-Related Meta Tags</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-<pre>
-&lt;meta http-equiv="Content-Security-Policy" content="default-src 'self'"&gt;
-</pre>
+<pre>&lt;meta http-equiv="Content-Security-Policy" content="default-src 'self'"&gt;</pre>
 
 <ul>
   <li>Controls resources the user agent is allowed to load, enhancing security.</li>
   <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP">MDN Web Docs</a></li>
 </ul>
 
-<pre>
-&lt;meta http-equiv="X-Content-Type-Options" content="nosniff"&gt;
-</pre>`
+<pre>&lt;meta http-equiv="X-Content-Type-Options" content="nosniff"&gt;</pre>`
 
 <ul>
   <li>Prevents the browser from MIME-sniffing a response away from the declared content-type.</li>
   <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta/http-equiv#x-content-type-options">MDN Web Docs</a></li>
 </ul>
 
-<pre>
-&lt;meta name="referrer" content="no-referrer"&gt;
-</pre>
+<pre>&lt;meta name="referrer" content="no-referrer"&gt;</pre>
 
 <ul>
   <li>Controls the amount of referrer information sent along with requests.</li>
@@ -103,9 +82,9 @@
 <h4>Open Graph (Facebook)</h4>
 
 <ul>
-  <li><pre>&lt;meta property="og:title" content="Title Here"&gt;</pre>: The title of your content.</li>
-  <li><pre>&lt;meta property="og:description" content="Description Here"&gt;</pre>: A brief description.</li>
-  <li><pre>&lt;meta property="og:image" content="https://example.com/image.jpg"&gt; : An image URL which should represent your content.</li>
+  <li><code>&lt;meta property="og:title" content="Title Here"&gt;</code>: The title of your content.</li>
+  <li><code>&lt;meta property="og:description" content="Description Here"&gt;</code>: A brief description.</li>
+  <li><code>&lt;meta property="og:image" content="https://example.com/image.jpg"&gt;</code>: An image URL which should represent your content.</li>
   <li><a href="https://ogp.me/">Open Graph Protocol</a></li>
 </ul>
 
@@ -158,44 +137,32 @@
 	- Specifies the natural language(s) of the document.
 	- The use of <html lang="en-US"> is preferred for specifying the primary language.
 
-<pre>
-&lt;meta name="google" content="notranslate"&gt;
-</pre>
+<pre>&lt;meta name="google" content="notranslate"&gt;</pre>
 
 	- Indicates to Google not to offer translation for this page.
 	- Useful for content that may be misinterpreted when automatically translated.
 
-<pre>
-&lt;meta property="fb:app_id" content="Your_App_ID"&gt;
-</pre>
+<pre>&lt;meta property="fb:app_id" content="Your_App_ID"&gt;</pre>
 
 	- Associates your website with a Facebook app ID.
 	- Essential for using Facebook Insights to track user interaction and for a more enhanced sharing experience on Facebook.
 
-<pre>
-&lt;meta name="apple-mobile-web-app-capable" content="yes"&gt;
-</pre>
+<pre>&lt;meta name="apple-mobile-web-app-capable" content="yes"&gt;</pre>
 
 	- Instructs Safari on iOS to operate in full-screen mode when the website is saved to the home screen.
 	- Enhances the mobile experience by hiding browser UI components.
 
-<pre>
-&lt;meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"&gt;
-</pre>
+<pre>&lt;meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"&gt;</pre>
 
 	- Specifies the style of the status bar for web applications added to the home screen on iOS.
 	- Options include default, black, and black-translucent.
 
-<pre>
-&lt;meta name="msapplication-TileColor" content="#000000"&gt;
-</pre>
+<pre>&lt;meta name="msapplication-TileColor" content="#000000"&gt;</pre>
 
 	- Defines the color of the tile for Windows 8 and 10 when the user pins the site to their start menu.
 	- Helps maintain brand consistency across user platforms.
 
-<pre>
-&lt;meta name="msapplication-config" content="/browserconfig.xml"&gt;
-</pre>
+<pre>&lt;meta name="msapplication-config" content="/browserconfig.xml"&gt;</pre>
 
 	- Specifies the location of the XML config file for Internet Explorer 11 when pinning websites to the Windows taskbar.
 	- The XML file can define tile images, tile color, and other settings.
