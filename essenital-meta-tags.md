@@ -60,7 +60,9 @@ Refreshes the page after a specified number of seconds.
 Instructs search engines not to index or follow the links on the page.
 <a href="https://developers.google.com/search/docs/advanced/robots/robots_meta_tag">Google Developers</a>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3>Security-Related Meta Tags</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 ```
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'">
@@ -107,6 +109,7 @@ An image URL which should represent your content.
 
 ```
 <a href="https://ogp.me/">Open Graph Protocol</a>
+```
 
 Twitter Cards
 
@@ -139,7 +142,7 @@ Determines the card type.
 ```
 
 	- Suggests a color that browsers should use to customize the display of the page or of the surrounding user interface.
-	- <a href="">MDN Web Docs</a>
+	- <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta/name/theme-color">MDN Web Docs</a>
 
 	- Particularly useful for mobile browsers to match the address bar color with the site’s theme color.
 
