@@ -1,5 +1,4 @@
-<!-- bbauska/meta-tags/README.md -->
-<!--
+<!-- bbauska/meta-tags/README.txt -->
 <meta charset='UTF-8'>
 <meta name='keywords' content='your, tags'>
 <meta name='description' content='150 words'>
@@ -45,4 +44,4 @@
 <meta http-equiv='Cache-Control' content='no-cache'>
 <meta http-equiv='imagetoolbar' content='no'>
 <meta http-equiv='x-dns-prefetch-control' content='off'>
--->
+
