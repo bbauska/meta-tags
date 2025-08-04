@@ -100,73 +100,68 @@
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3>Other Meta Tags</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<pre>
-&lt;meta name="format-detection" content="telephone=no"&gt;
-</pre>
+<pre>&lt;meta name="format-detection" content="telephone=no"&gt;</pre>
+<ul>
+  <li>Instructs browsers not to detect and format telephone numbers automatically.</li>
+  <li>Useful for preventing unintended UI modifications, especially on mobile devices.</li>
+</ul>
+<pre>&lt;meta name="theme-color" content="#ffffff"&gt;</pre>
+<ul>
+  <li>Suggests a color that browsers should use to customize the display of the page or of the surrounding user interface.</li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta/name/theme-color">MDN Web Docs</a></li>
+  <li>Particularly useful for mobile browsers to match the address bar color with the site’s theme color.</li>
+<pre>&lt;meta name="application-name" content="Application Name"&gt;</pre>
+<ul>
+  <li>Specifies the name of the web application.</li>
+  <li>Not widely used for SEO but can be useful in web app manifests and when the website is pinned to a screen, like on mobile devices or desktops.</li>
+</ul>
+<pre>&lt;meta name="generator" content="WordPress 5.8"&gt;</pre>
+<ul>
+  <li>Indicates the software or platform used to generate the page.</li>
+  <li>Automatically included by some CMSs like WordPress but often removed for security reasons to obscure the platform version.</li>
+</ul>
+<pre>&lt;meta http-equiv="Content-Language" content="en-US"&gt;</pre>
 
-	- Instructs browsers not to detect and format telephone numbers automatically.
-	- Useful for preventing unintended UI modifications, especially on mobile devices.
-
-<pre>
-&lt;meta name="theme-color" content="#ffffff"&gt;
-</pre>
-
-	- Suggests a color that browsers should use to customize the display of the page or of the surrounding user interface.
-	- <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta/name/theme-color">MDN Web Docs</a>
-
-	- Particularly useful for mobile browsers to match the address bar color with the site’s theme color.
-
-<pre>
-&lt;meta name="application-name" content="Application Name"&gt;
-</pre>
-
-	- Specifies the name of the web application.
-	- Not widely used for SEO but can be useful in web app manifests and when the website is pinned to a screen, like on mobile devices or desktops.
-
-<pre>
-&lt;meta name="generator" content="WordPress 5.8"&gt;
-</pre>
-
-	- Indicates the software or platform used to generate the page.
-	- Automatically included by some CMSs like WordPress but often removed for security reasons to obscure the platform version.
-
-<pre>
-&lt;meta http-equiv="Content-Language" content="en-US"&gt;
-</pre>
-
-	- Specifies the natural language(s) of the document.
-	- The use of <html lang="en-US"> is preferred for specifying the primary language.
-
+<ul>
+  <li>Specifies the natural language(s) of the document.</li>
+  <li>The use of <html lang="en-US"> is preferred for specifying the primary language.</li>
+</ul>
 <pre>&lt;meta name="google" content="notranslate"&gt;</pre>
 
-	- Indicates to Google not to offer translation for this page.
-	- Useful for content that may be misinterpreted when automatically translated.
-
+<ul>
+  <li>Indicates to Google not to offer translation for this page.</li>
+  <li>Useful for content that may be misinterpreted when automatically translated.</li>
+</ul>
 <pre>&lt;meta property="fb:app_id" content="Your_App_ID"&gt;</pre>
 
-	- Associates your website with a Facebook app ID.
-	- Essential for using Facebook Insights to track user interaction and for a more enhanced sharing experience on Facebook.
-
+<ul>
+  <li>Associates your website with a Facebook app ID.</li>
+  <li>Essential for using Facebook Insights to track user interaction and for a more enhanced sharing experience on Facebook.</li>
+</ul>
 <pre>&lt;meta name="apple-mobile-web-app-capable" content="yes"&gt;</pre>
 
-	- Instructs Safari on iOS to operate in full-screen mode when the website is saved to the home screen.
-	- Enhances the mobile experience by hiding browser UI components.
-
+<ul>
+  <li>Instructs Safari on iOS to operate in full-screen mode when the website is saved to the home screen.</li>
+  <li>Enhances the mobile experience by hiding browser UI components.</li>
+</ul>
 <pre>&lt;meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"&gt;</pre>
 
-	- Specifies the style of the status bar for web applications added to the home screen on iOS.
-	- Options include default, black, and black-translucent.
-
+<ul>
+  <li>Specifies the style of the status bar for web applications added to the home screen on iOS.</li>
+  <li>Options include default, black, and black-translucent.</li>
+</ul>
 <pre>&lt;meta name="msapplication-TileColor" content="#000000"&gt;</pre>
 
-	- Defines the color of the tile for Windows 8 and 10 when the user pins the site to their start menu.
-	- Helps maintain brand consistency across user platforms.
-
+<ul>
+  <li>Defines the color of the tile for Windows 8 and 10 when the user pins the site 
+    to their start menu.</li>
+  <li>Helps maintain brand consistency across user platforms.</li>
+</ul>
 <pre>&lt;meta name="msapplication-config" content="/browserconfig.xml"&gt;</pre>
+<ul>
+  <li>Specifies the location of the XML config file for Internet Explorer 11 when pinning websites to the Windows taskbar.</li>
+  <li>The XML file can define tile images, tile color, and other settings.</li>
+</ul>
+<p>This list represents a snapshot of the diverse and evolving world of HTML meta tags, each serving specific roles from SEO optimization, security enhancements, social media integration, to providing a better user experience across various devices and platforms. Developers should consider these meta tags as tools in their toolkit, to be used thoughtfully to meet the goals of their web projects.</p>
 
-	- Specifies the location of the XML config file for Internet Explorer 11 when pinning websites to the Windows taskbar.
-	- The XML file can define tile images, tile color, and other settings.
-
-This list represents a snapshot of the diverse and evolving world of HTML meta tags, each serving specific roles from SEO optimization, security enhancements, social media integration, to providing a better user experience across various devices and platforms. Developers should consider these meta tags as tools in their toolkit, to be used thoughtfully to meet the goals of their web projects.
-
-For the most current information and best practices, always refer to official documentation and guidelines from relevant platforms and organizations, as web standards and practices continue to evolve.
+<p>For the most current information and best practices, always refer to official documentation and guidelines from relevant platforms and organizations, as web standards and practices continue to evolve.</p>
