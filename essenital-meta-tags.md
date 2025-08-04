@@ -7,41 +7,55 @@
 <meta charset="UTF-8">
 ```
 
-	- <p>Specifies the character encoding for the HTML document.</p>
-	- <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta#attr-charset">MDN Web Docs</a>
+<ul>
+	<li>Specifies the character encoding for the HTML document.</li>
+	<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta#attr-charset">MDN Web Docs</a></li>
+</ul>
 
 ```
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 ```
 
-	- <p>Controls the viewport's size and scale, essential for responsive design.</p>
-	- <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Viewport_meta_tag">MDN Web Docs</a>
+<ul>
+  <li>Controls the viewport's size and scale, essential for responsive design.</li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Viewport_meta_tag">MDN Web Docs</a></li>
+</ul>
 
 ```
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 ```
 
-	- <p>Advises Internet Explorer to use the latest rendering engine.</p>
-	- <p>No longer broadly relevant as IE reaches end-of-life.</p>
+<ul>
+  <li>Advises Internet Explorer to use the latest rendering engine.</li>
+  <li>No longer broadly relevant as IE reaches end-of-life.</li>
+</ul>
 
 ```
 <meta name="description" content="Free Web tutorials">
 ```
 
-	- <p>Provides a brief description of the page. Important for SEO and when sharing links on social platforms.</p>
-	- <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta/name">MDN Web Docs</a>
+<ul>
+  <li>Provides a brief description of the page. Important for SEO and when sharing 
+    links on social platforms.</li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta/name">
+    MDN Web Docs</a></li>
+</ul>
 
 ```
 <meta name="keywords" content="HTML, CSS, JavaScript">
 ```
 
-	- Specifies keywords for search engines. Its importance for SEO has diminished over time due to overuse and spamming.
+<ul>
+  <li>Specifies keywords for search engines. Its importance for SEO has diminished over time due to overuse and spamming.</li>
+</ul>
 
 ```
 <meta name="author" content="John Doe">
 ```
 
-	- Defines the author of the webpage.
+<ul>
+  <li>Defines the author of the webpage.</li>
+</ul>
 
 ```
 <meta http-equiv="refresh" content="30">
