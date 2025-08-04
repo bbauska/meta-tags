@@ -60,7 +60,7 @@
 
 <code>&lt;meta http-equiv="X-Content-Type-Options" content="nosniff"&gt;</code>`
 <ul>
-  <li>codevents the browser from MIME-sniffing a response away from the declared content-type.</li>
+  <li>Prevents the browser from MIME-sniffing a response away from the declared content-type.</li>
   <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta/http-equiv#x-content-type-options">MDN Web Docs</a></li>
 </ul>
 
@@ -77,7 +77,7 @@
 <ul>
   <li><code>&lt;meta property="og:title" content="Title Here"&gt;</code>: The title of your content.</li>
   <li><code>&lt;meta property="og:description" content="Description Here"&gt;</code>: A brief description.</li>
-  <li><code>&lt;meta property="og:image" content="https://example.com/image.jpg"&gt;</code>: An image URL which should recodesent your content.</li>
+  <li><code>&lt;meta property="og:image" content="https://example.com/image.jpg"&gt;</code>: An image URL which should repreesent your content.</li>
   <li><a href="https://ogp.me/">Open Graph Protocol</a></li>
 </ul>
 
@@ -115,7 +115,7 @@
 <code>&lt;meta name="generator" content="Wordcodess 5.8"&gt;</code>
 <ul>
   <li>Indicates the software or platform used to generate the page.</li>
-  <li>Automatically included by some CMSs like Wordcodess but often removed for security reasons to obscure the platform version.</li>
+  <li>Automatically included by some CMSs like Wordpress but often removed for security reasons to obscure the platform version.</li>
 </ul>
 
 <code>&lt;meta http-equiv="Content-Language" content="en-US"&gt;</code>
