@@ -1,34 +1,47 @@
+<!-- bbauska/meta-tags/essential-meta-tags.md -->
 <h3>Essential HTML Meta Tags</h3>
+
 ```
 <meta charset="UTF-8">
 ```
+
 <p>Specifies the character encoding for the HTML document.</p>
 <a href="">MDN Web Docs</a>
+
 ```
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 ```
+
 <p>Controls the viewport's size and scale, essential for responsive design.</p>
 <a href="">MDN Web Docs</a>
+
 ```
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 ```
+
 <p>Advises Internet Explorer to use the latest rendering engine.</p>
 <p>No longer broadly relevant as IE reaches end-of-life.</p>
+
 ```
 <meta name="description" content="Free Web tutorials">
 ```
+
 <p>Provides a brief description of the page. Important for SEO and when sharing links on social platforms.</p>
 <a href="">MDN Web Docs</a>
+
 ```
 <meta name="keywords" content="HTML, CSS, JavaScript">
 ```
+
 Specifies keywords for search engines. Its importance for SEO has diminished over time due to overuse and spamming.
 <meta name="author" content="John Doe">
 
 Defines the author of the webpage.
+
 ```
 <meta http-equiv="refresh" content="30">
 ```
+
 Refreshes the page after a specified number of seconds.
 MDN Web Docs
 ```
